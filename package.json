@@ -1,0 +1,18 @@
+{
+  "name": "taxi_aggregator_api",
+  "version": "1.0.0",
+  "description": "An Taxi Aggregator  api based on express and mongoDb that can handle incoming requests by offering different endpoints.",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=test&& nodemon --exec mocha --recursive -R min"
+  },
+  "author": "Apurva Shekhar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mocha": "^10.0.0",
+    "mongoose": "^6.6.5",
+    "supertest": "^6.3.0"
+  }
+}
